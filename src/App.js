@@ -4,7 +4,6 @@ import "./App.css";
 // TODO: import the Header component
 
 function App() {
-  // State Hook - `useState`
     // this is the object to define the properties of a reminder
     const initialReminder =  {title: "", completed:false, id:0}
 
@@ -19,14 +18,6 @@ function App() {
 
   // Helper Functions
 
-  /* TODO: Complete this method to add an item to the items array
-          i.  item should be an object with this structure:
-            {id: generate_a_random_number, value: newItem}
-          ii. Make use of the setItems and setNewItem state methods.
-          iii. Clue: you can use "Math.floor(Math.random() * 100)" to generate a random number.
-  */
-
-  
   /* 
     TODO: Complete this method to set a new reminder object to the reminder state variable:
     Hint: i. create an object following the initialReminder object property
