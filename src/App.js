@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import Header from "./components/Header";
 // TODO: import the Reminder component
 // TODO: import the Header component
 
@@ -59,6 +60,7 @@ function App() {
   return (
     <div className="app">
       {/* TODO: Add the Header component */}
+      <Header/>
 
       <input
         type="text"
